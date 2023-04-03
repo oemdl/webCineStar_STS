@@ -24,7 +24,7 @@
                        		</a>
                			</div>
                			<div class="boton-pelicula"> 
-               				<a href="https://www.youtube.com/v/v3fspveODBI" target=_blank  onclick="return hs.htmlExpand(this, { objectType: 'iframe' } )" >
+               				<a th:href="@{${'https://www.youtube.com/v/' + pelicula.Link}}" target=_blank  onclick="return hs.htmlExpand(this, { objectType: 'iframe' } )" >
                					<img th:src="@{/img/varios/btn-trailer.jpg}" width="120" height="30" alt="Ver trailer"/>
                				</a>
                         </div> 

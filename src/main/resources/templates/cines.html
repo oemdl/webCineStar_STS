@@ -14,7 +14,7 @@
 
 				<br/><h1>Nuestros Cines</h1><br/>
 				<div class="contenido-cine" th:each="cine : ${cines}" >
-	        	    <img th:src="@{img/cine/${cine.id}.1.jpg" width="227" height="170"/>
+	        	    <img th:src="@{${'/img/cine/' + cine.id + '.1.jpg'}}" width="227" height="170"/>
             	   	<div class="datos-cine">
        				   	<h4 th:text="${cine.RazonSocial}"></h4><br/>
                 		<span th:text="${cine.Direccion} + ' - ' + ${cine.Detalle}"></span><br/><br/>Teléfono: 
@@ -22,7 +22,7 @@
                 	</div>
                 	<br/>
                 	<a th:href="@{/cine/{id}(id=${cine.id})}" >
-                		<img src="img/varios/ico-info2.png" width="150" height="40"/>
+                		<img th:src="@{img/varios/ico-info2.png}" width="150" height="40"/>
                 	</a>
 				</div>
 

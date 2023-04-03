@@ -1,7 +1,5 @@
 package com.web.cinestar.controller;
 
-import java.util.List;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -10,9 +8,6 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 import com.web.cinestar.service.CineService;
 import com.web.cinestar.service.PeliculaService;
-
-import com.web.cinestar.model.Pelicula;
-import com.web.cinestar.model.PeliculaList;
 
 @Controller
 public class CineStarController {
