@@ -1,37 +1,256 @@
-2023-03-31T10:13:10.180-05:00  INFO 13928 --- [restartedMain] c.w.cinestar.WebCineStarStsApplication   : Starting WebCineStarStsApplication using Java 17.0.6 with PID 13928 (D:\Documentos\Spring Tools Suite\webCineStar_STS\target\classes started by Omar in D:\Documentos\Spring Tools Suite\webCineStar_STS)
-2023-03-31T10:13:10.186-05:00  INFO 13928 --- [restartedMain] c.w.cinestar.WebCineStarStsApplication   : No active profile set, falling back to 1 default profile: "default"
-2023-03-31T10:13:10.258-05:00  INFO 13928 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2023-03-31T10:13:10.258-05:00  INFO 13928 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2023-03-31T10:13:11.229-05:00  INFO 13928 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2023-03-31T10:13:11.346-05:00  INFO 13928 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 101 ms. Found 3 JPA repository interfaces.
-2023-03-31T10:13:12.300-05:00  INFO 13928 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2023-03-31T10:13:12.330-05:00  INFO 13928 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-03-31T10:13:12.331-05:00  INFO 13928 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
-2023-03-31T10:13:12.436-05:00  INFO 13928 --- [restartedMain] o.a.c.c.C.[.[localhost].[/cinestar]      : Initializing Spring embedded WebApplicationContext
-2023-03-31T10:13:12.437-05:00  INFO 13928 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2177 ms
-2023-03-31T10:13:12.698-05:00  INFO 13928 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2023-03-31T10:13:12.823-05:00  INFO 13928 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
-2023-03-31T10:13:13.230-05:00  INFO 13928 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2023-03-31T10:13:13.534-05:00  INFO 13928 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4224be55
-2023-03-31T10:13:13.539-05:00  INFO 13928 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2023-03-31T10:13:13.623-05:00  WARN 13928 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.0 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 5.7.0. Check the community dialects project for available legacy versions.
-2023-03-31T10:13:13.631-05:00  INFO 13928 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2023-03-31T10:13:14.537-05:00  INFO 13928 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2023-03-31T10:13:14.552-05:00  INFO 13928 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2023-03-31T10:13:15.049-05:00  WARN 13928 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2023-03-31T10:13:15.222-05:00  INFO 13928 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2023-03-31T10:13:15.461-05:00  INFO 13928 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2023-03-31T10:13:15.512-05:00  INFO 13928 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/cinestar'
-2023-03-31T10:13:15.523-05:00  INFO 13928 --- [restartedMain] c.w.cinestar.WebCineStarStsApplication   : Started WebCineStarStsApplication in 5.887 seconds (process running for 6.758)
-2023-03-31T10:13:42.508-05:00  INFO 13928 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[localhost].[/cinestar]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-03-31T10:13:42.509-05:00  INFO 13928 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2023-03-31T10:13:42.510-05:00  INFO 13928 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2023-03-31T10:13:43.155-05:00  WARN 13928 --- [http-nio-8080-exec-2] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-2][index] Deprecated unwrapped fragment expression "template :: head" found in template index, line 3, col 8. Please use the complete syntax of fragment expressions instead ("~{template :: head}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
-2023-03-31T10:13:43.348-05:00  WARN 13928 --- [http-nio-8080-exec-2] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-2][index] Deprecated unwrapped fragment expression "template :: header" found in template index, line 6, col 11. Please use the complete syntax of fragment expressions instead ("~{template :: header}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
-2023-03-31T10:13:43.367-05:00  WARN 13928 --- [http-nio-8080-exec-2] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-2][index] Deprecated unwrapped fragment expression "template :: footer" found in template index, line 19, col 11. Please use the complete syntax of fragment expressions instead ("~{template :: footer}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
-2023-03-31T10:13:51.804-05:00  WARN 13928 --- [http-nio-8080-exec-3] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-3][cines] Deprecated unwrapped fragment expression "template :: head" found in template cines, line 3, col 8. Please use the complete syntax of fragment expressions instead ("~{template :: head}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
-2023-03-31T10:13:51.812-05:00  WARN 13928 --- [http-nio-8080-exec-3] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-3][cines] Deprecated unwrapped fragment expression "template :: header" found in template cines, line 6, col 11. Please use the complete syntax of fragment expressions instead ("~{template :: header}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
-2023-03-31T10:13:51.870-05:00 ERROR 13928 --- [http-nio-8080-exec-3] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-8080-exec-3] Exception processing template "cines": An error happened during template parsing (template: "class path resource [templates/cines.html]")
+2023-04-03T19:59:46.189-05:00  INFO 1044 --- [restartedMain] c.w.cinestar.WebCineStarStsApplication   : Starting WebCineStarStsApplication using Java 17.0.6 with PID 1044 (D:\Documentos\Spring Tools Suite\webCineStar_STS\target\classes started by Omar in D:\Documentos\Spring Tools Suite\webCineStar_STS)
+2023-04-03T19:59:46.205-05:00  INFO 1044 --- [restartedMain] c.w.cinestar.WebCineStarStsApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-04-03T19:59:46.342-05:00  INFO 1044 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-03T19:59:46.344-05:00  INFO 1044 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-03T19:59:47.912-05:00  INFO 1044 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-03T19:59:48.092-05:00  INFO 1044 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 162 ms. Found 3 JPA repository interfaces.
+2023-04-03T19:59:48.984-05:00  INFO 1044 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-03T19:59:49.000-05:00  INFO 1044 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-03T19:59:49.000-05:00  INFO 1044 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-04-03T19:59:49.140-05:00  INFO 1044 --- [restartedMain] o.a.c.c.C.[.[localhost].[/cinestar]      : Initializing Spring embedded WebApplicationContext
+2023-04-03T19:59:49.141-05:00  INFO 1044 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2792 ms
+2023-04-03T19:59:49.417-05:00  INFO 1044 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-03T19:59:49.554-05:00  INFO 1044 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-04-03T19:59:50.226-05:00  INFO 1044 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-03T19:59:50.500-05:00  INFO 1044 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4ff5de3e
+2023-04-03T19:59:50.503-05:00  INFO 1044 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-03T19:59:50.594-05:00  WARN 1044 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.0 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 5.7.0. Check the community dialects project for available legacy versions.
+2023-04-03T19:59:50.602-05:00  INFO 1044 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-04-03T19:59:51.706-05:00  INFO 1044 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-03T19:59:51.722-05:00  INFO 1044 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-03T19:59:52.299-05:00  WARN 1044 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-03T19:59:52.547-05:00  INFO 1044 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-04-03T19:59:52.985-05:00  INFO 1044 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-03T19:59:53.043-05:00  INFO 1044 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/cinestar'
+2023-04-03T19:59:53.053-05:00  INFO 1044 --- [restartedMain] c.w.cinestar.WebCineStarStsApplication   : Started WebCineStarStsApplication in 8.043 seconds (process running for 9.698)
+2023-04-03T20:03:18.853-05:00  INFO 1044 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[localhost].[/cinestar]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-03T20:03:18.855-05:00  INFO 1044 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-03T20:03:18.856-05:00  INFO 1044 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-04-03T20:03:19.507-05:00  WARN 1044 --- [http-nio-8080-exec-2] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-2][index] Deprecated unwrapped fragment expression "template :: head" found in template index, line 3, col 8. Please use the complete syntax of fragment expressions instead ("~{template :: head}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2023-04-03T20:03:19.780-05:00  WARN 1044 --- [http-nio-8080-exec-2] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-2][index] Deprecated unwrapped fragment expression "template :: header" found in template index, line 6, col 11. Please use the complete syntax of fragment expressions instead ("~{template :: header}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2023-04-03T20:03:19.812-05:00  WARN 1044 --- [http-nio-8080-exec-2] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-2][index] Deprecated unwrapped fragment expression "template :: footer" found in template index, line 19, col 11. Please use the complete syntax of fragment expressions instead ("~{template :: footer}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2023-04-03T20:04:04.546-05:00  WARN 1044 --- [http-nio-8080-exec-3] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-3][cines] Deprecated unwrapped fragment expression "template :: head" found in template cines, line 3, col 8. Please use the complete syntax of fragment expressions instead ("~{template :: head}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2023-04-03T20:04:04.558-05:00  WARN 1044 --- [http-nio-8080-exec-3] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-3][cines] Deprecated unwrapped fragment expression "template :: header" found in template cines, line 6, col 11. Please use the complete syntax of fragment expressions instead ("~{template :: header}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2023-04-03T20:04:04.693-05:00  WARN 1044 --- [http-nio-8080-exec-3] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-3][cines] Deprecated unwrapped fragment expression "template :: footer" found in template cines, line 33, col 11. Please use the complete syntax of fragment expressions instead ("~{template :: footer}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2023-04-03T20:04:33.484-05:00  WARN 1044 --- [http-nio-8080-exec-5] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-5][peliculas] Deprecated unwrapped fragment expression "template :: head" found in template peliculas, line 3, col 8. Please use the complete syntax of fragment expressions instead ("~{template :: head}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2023-04-03T20:04:33.491-05:00  WARN 1044 --- [http-nio-8080-exec-5] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-5][peliculas] Deprecated unwrapped fragment expression "template :: header" found in template peliculas, line 6, col 11. Please use the complete syntax of fragment expressions instead ("~{template :: header}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2023-04-03T20:04:33.541-05:00  WARN 1044 --- [http-nio-8080-exec-5] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-5][peliculas] Deprecated unwrapped fragment expression "template :: footer" found in template peliculas, line 39, col 11. Please use the complete syntax of fragment expressions instead ("~{template :: footer}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2023-04-03T20:04:42.834-05:00  WARN 1044 --- [http-nio-8080-exec-1] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-1][peliculas] Deprecated unwrapped fragment expression "template :: head" found in template peliculas, line 3, col 8. Please use the complete syntax of fragment expressions instead ("~{template :: head}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2023-04-03T20:04:42.842-05:00  WARN 1044 --- [http-nio-8080-exec-1] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-1][peliculas] Deprecated unwrapped fragment expression "template :: header" found in template peliculas, line 6, col 11. Please use the complete syntax of fragment expressions instead ("~{template :: header}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2023-04-03T20:04:42.874-05:00  WARN 1044 --- [http-nio-8080-exec-1] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-1][peliculas] Deprecated unwrapped fragment expression "template :: footer" found in template peliculas, line 39, col 11. Please use the complete syntax of fragment expressions instead ("~{template :: footer}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2023-04-03T20:05:21.049-05:00  WARN 1044 --- [http-nio-8080-exec-10] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-10][peliculas] Deprecated unwrapped fragment expression "template :: head" found in template peliculas, line 3, col 8. Please use the complete syntax of fragment expressions instead ("~{template :: head}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2023-04-03T20:05:21.054-05:00  WARN 1044 --- [http-nio-8080-exec-10] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-10][peliculas] Deprecated unwrapped fragment expression "template :: header" found in template peliculas, line 6, col 11. Please use the complete syntax of fragment expressions instead ("~{template :: header}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2023-04-03T20:05:21.070-05:00  WARN 1044 --- [http-nio-8080-exec-10] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-10][peliculas] Deprecated unwrapped fragment expression "template :: footer" found in template peliculas, line 39, col 11. Please use the complete syntax of fragment expressions instead ("~{template :: footer}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2023-04-03T20:37:38.340-05:00  INFO 1044 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2023-04-03T20:37:38.355-05:00  INFO 1044 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-03T20:37:38.357-05:00  INFO 1044 --- [Thread-5] o.a.c.c.C.[.[localhost].[/cinestar]      : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-04-03T20:37:38.367-05:00  INFO 1044 --- [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-03T20:37:38.372-05:00  INFO 1044 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-04-03T20:37:38.375-05:00  INFO 1044 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-04-03T20:37:38.567-05:00  INFO 1044 --- [restartedMain] c.w.cinestar.WebCineStarStsApplication   : Starting WebCineStarStsApplication using Java 17.0.6 with PID 1044 (D:\Documentos\Spring Tools Suite\webCineStar_STS\target\classes started by Omar in D:\Documentos\Spring Tools Suite\webCineStar_STS)
+2023-04-03T20:37:38.567-05:00  INFO 1044 --- [restartedMain] c.w.cinestar.WebCineStarStsApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-04-03T20:37:38.987-05:00  INFO 1044 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-03T20:37:39.026-05:00  INFO 1044 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38 ms. Found 3 JPA repository interfaces.
+2023-04-03T20:37:39.253-05:00  INFO 1044 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-03T20:37:39.254-05:00  INFO 1044 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-03T20:37:39.254-05:00  INFO 1044 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-04-03T20:37:39.346-05:00  INFO 1044 --- [restartedMain] o.a.c.c.C.[.[localhost].[/cinestar]      : Initializing Spring embedded WebApplicationContext
+2023-04-03T20:37:39.347-05:00  INFO 1044 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 773 ms
+2023-04-03T20:37:39.433-05:00  INFO 1044 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-03T20:37:39.449-05:00  INFO 1044 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2023-04-03T20:37:39.456-05:00  INFO 1044 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@330e387e
+2023-04-03T20:37:39.457-05:00  INFO 1044 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2023-04-03T20:37:39.461-05:00  WARN 1044 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.0 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 5.7.0. Check the community dialects project for available legacy versions.
+2023-04-03T20:37:39.462-05:00  INFO 1044 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-04-03T20:37:39.615-05:00  INFO 1044 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-03T20:37:39.615-05:00  INFO 1044 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-03T20:37:39.812-05:00  WARN 1044 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-03T20:37:39.873-05:00  INFO 1044 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-04-03T20:37:40.009-05:00  INFO 1044 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-03T20:37:40.038-05:00  INFO 1044 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/cinestar'
+2023-04-03T20:37:40.045-05:00  INFO 1044 --- [restartedMain] c.w.cinestar.WebCineStarStsApplication   : Started WebCineStarStsApplication in 1.565 seconds (process running for 2276.69)
+2023-04-03T20:37:40.048-05:00  INFO 1044 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-04-03T20:38:56.975-05:00  INFO 1044 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-04-03T20:38:56.992-05:00  INFO 1044 --- [Thread-7] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-03T20:38:56.997-05:00  INFO 1044 --- [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-03T20:38:56.998-05:00  INFO 1044 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2023-04-03T20:38:57.001-05:00  INFO 1044 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2023-04-03T20:38:57.097-05:00  INFO 1044 --- [restartedMain] c.w.cinestar.WebCineStarStsApplication   : Starting WebCineStarStsApplication using Java 17.0.6 with PID 1044 (D:\Documentos\Spring Tools Suite\webCineStar_STS\target\classes started by Omar in D:\Documentos\Spring Tools Suite\webCineStar_STS)
+2023-04-03T20:38:57.098-05:00  INFO 1044 --- [restartedMain] c.w.cinestar.WebCineStarStsApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-04-03T20:38:57.442-05:00  INFO 1044 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-03T20:38:57.467-05:00  INFO 1044 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 24 ms. Found 3 JPA repository interfaces.
+2023-04-03T20:38:57.632-05:00  INFO 1044 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-03T20:38:57.633-05:00  INFO 1044 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-03T20:38:57.633-05:00  INFO 1044 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-04-03T20:38:57.668-05:00  INFO 1044 --- [restartedMain] o.a.c.c.C.[.[localhost].[/cinestar]      : Initializing Spring embedded WebApplicationContext
+2023-04-03T20:38:57.669-05:00  INFO 1044 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 569 ms
+2023-04-03T20:38:57.764-05:00  INFO 1044 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-03T20:38:57.777-05:00  INFO 1044 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2023-04-03T20:38:57.783-05:00  INFO 1044 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@62d24c2
+2023-04-03T20:38:57.783-05:00  INFO 1044 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2023-04-03T20:38:57.784-05:00  WARN 1044 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.0 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 5.7.0. Check the community dialects project for available legacy versions.
+2023-04-03T20:38:57.785-05:00  INFO 1044 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-04-03T20:38:57.956-05:00  INFO 1044 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-03T20:38:57.958-05:00  INFO 1044 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-03T20:38:58.176-05:00  WARN 1044 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-03T20:38:58.268-05:00  INFO 1044 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-04-03T20:38:58.379-05:00  INFO 1044 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-03T20:38:58.415-05:00  INFO 1044 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/cinestar'
+2023-04-03T20:38:58.427-05:00  INFO 1044 --- [restartedMain] c.w.cinestar.WebCineStarStsApplication   : Started WebCineStarStsApplication in 1.362 seconds (process running for 2355.072)
+2023-04-03T20:38:58.431-05:00  INFO 1044 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-04-03T20:39:07.131-05:00  INFO 1044 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2023-04-03T20:39:07.167-05:00  INFO 1044 --- [Thread-11] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-03T20:39:07.186-05:00  INFO 1044 --- [Thread-11] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-03T20:39:07.189-05:00  INFO 1044 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2023-04-03T20:39:07.202-05:00  INFO 1044 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2023-04-03T20:39:07.315-05:00  INFO 1044 --- [restartedMain] c.w.cinestar.WebCineStarStsApplication   : Starting WebCineStarStsApplication using Java 17.0.6 with PID 1044 (D:\Documentos\Spring Tools Suite\webCineStar_STS\target\classes started by Omar in D:\Documentos\Spring Tools Suite\webCineStar_STS)
+2023-04-03T20:39:07.316-05:00  INFO 1044 --- [restartedMain] c.w.cinestar.WebCineStarStsApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-04-03T20:39:07.610-05:00  INFO 1044 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-03T20:39:07.634-05:00  INFO 1044 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23 ms. Found 3 JPA repository interfaces.
+2023-04-03T20:39:07.742-05:00  INFO 1044 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-03T20:39:07.745-05:00  INFO 1044 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-03T20:39:07.746-05:00  INFO 1044 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-04-03T20:39:07.789-05:00  INFO 1044 --- [restartedMain] o.a.c.c.C.[.[localhost].[/cinestar]      : Initializing Spring embedded WebApplicationContext
+2023-04-03T20:39:07.790-05:00  INFO 1044 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 470 ms
+2023-04-03T20:39:07.846-05:00  INFO 1044 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-03T20:39:07.877-05:00  INFO 1044 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2023-04-03T20:39:07.883-05:00  INFO 1044 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@220d0dff
+2023-04-03T20:39:07.883-05:00  INFO 1044 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2023-04-03T20:39:07.884-05:00  WARN 1044 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.0 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 5.7.0. Check the community dialects project for available legacy versions.
+2023-04-03T20:39:07.886-05:00  INFO 1044 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-04-03T20:39:08.008-05:00  INFO 1044 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-03T20:39:08.009-05:00  INFO 1044 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-03T20:39:08.164-05:00  WARN 1044 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-03T20:39:08.230-05:00  INFO 1044 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-04-03T20:39:08.321-05:00  INFO 1044 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-03T20:39:08.349-05:00  INFO 1044 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/cinestar'
+2023-04-03T20:39:08.361-05:00  INFO 1044 --- [restartedMain] c.w.cinestar.WebCineStarStsApplication   : Started WebCineStarStsApplication in 1.093 seconds (process running for 2365.006)
+2023-04-03T20:39:08.364-05:00  INFO 1044 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-04-03T20:48:38.395-05:00  INFO 1044 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-04-03T20:48:38.413-05:00  INFO 1044 --- [Thread-15] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-03T20:48:38.420-05:00  INFO 1044 --- [Thread-15] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-03T20:48:38.421-05:00  INFO 1044 --- [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2023-04-03T20:48:38.426-05:00  INFO 1044 --- [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2023-04-03T20:48:38.561-05:00  INFO 1044 --- [restartedMain] c.w.cinestar.WebCineStarStsApplication   : Starting WebCineStarStsApplication using Java 17.0.6 with PID 1044 (D:\Documentos\Spring Tools Suite\webCineStar_STS\target\classes started by Omar in D:\Documentos\Spring Tools Suite\webCineStar_STS)
+2023-04-03T20:48:38.561-05:00  INFO 1044 --- [restartedMain] c.w.cinestar.WebCineStarStsApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-04-03T20:48:38.899-05:00  INFO 1044 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-03T20:48:38.927-05:00  INFO 1044 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27 ms. Found 3 JPA repository interfaces.
+2023-04-03T20:48:39.075-05:00  INFO 1044 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-03T20:48:39.076-05:00  INFO 1044 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-03T20:48:39.076-05:00  INFO 1044 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-04-03T20:48:39.096-05:00  INFO 1044 --- [restartedMain] o.a.c.c.C.[.[localhost].[/cinestar]      : Initializing Spring embedded WebApplicationContext
+2023-04-03T20:48:39.096-05:00  INFO 1044 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 527 ms
+2023-04-03T20:48:39.157-05:00  INFO 1044 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-03T20:48:39.168-05:00  INFO 1044 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2023-04-03T20:48:39.173-05:00  INFO 1044 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-5 - Added connection com.mysql.cj.jdbc.ConnectionImpl@24dd018d
+2023-04-03T20:48:39.173-05:00  INFO 1044 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2023-04-03T20:48:39.173-05:00  WARN 1044 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.0 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 5.7.0. Check the community dialects project for available legacy versions.
+2023-04-03T20:48:39.173-05:00  INFO 1044 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-04-03T20:48:39.313-05:00  INFO 1044 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-03T20:48:39.314-05:00  INFO 1044 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-03T20:48:39.527-05:00  WARN 1044 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-03T20:48:39.604-05:00  INFO 1044 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-04-03T20:48:39.718-05:00  INFO 1044 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-03T20:48:39.734-05:00  INFO 1044 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/cinestar'
+2023-04-03T20:48:39.739-05:00  INFO 1044 --- [restartedMain] c.w.cinestar.WebCineStarStsApplication   : Started WebCineStarStsApplication in 1.227 seconds (process running for 2936.383)
+2023-04-03T20:48:39.740-05:00  INFO 1044 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-04-03T20:49:08.050-05:00  INFO 1044 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-04-03T20:49:08.060-05:00  INFO 1044 --- [Thread-19] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-03T20:49:08.063-05:00  INFO 1044 --- [Thread-19] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-03T20:49:08.064-05:00  INFO 1044 --- [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2023-04-03T20:49:08.066-05:00  INFO 1044 --- [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2023-04-03T20:49:08.197-05:00  INFO 1044 --- [restartedMain] c.w.cinestar.WebCineStarStsApplication   : Starting WebCineStarStsApplication using Java 17.0.6 with PID 1044 (D:\Documentos\Spring Tools Suite\webCineStar_STS\target\classes started by Omar in D:\Documentos\Spring Tools Suite\webCineStar_STS)
+2023-04-03T20:49:08.197-05:00  INFO 1044 --- [restartedMain] c.w.cinestar.WebCineStarStsApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-04-03T20:49:08.525-05:00  INFO 1044 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-03T20:49:08.548-05:00  INFO 1044 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22 ms. Found 3 JPA repository interfaces.
+2023-04-03T20:49:08.742-05:00  INFO 1044 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-03T20:49:08.743-05:00  INFO 1044 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-03T20:49:08.743-05:00  INFO 1044 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-04-03T20:49:08.764-05:00  INFO 1044 --- [restartedMain] o.a.c.c.C.[.[localhost].[/cinestar]      : Initializing Spring embedded WebApplicationContext
+2023-04-03T20:49:08.764-05:00  INFO 1044 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 564 ms
+2023-04-03T20:49:08.819-05:00  INFO 1044 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-03T20:49:08.829-05:00  INFO 1044 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2023-04-03T20:49:08.840-05:00  INFO 1044 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-6 - Added connection com.mysql.cj.jdbc.ConnectionImpl@f7ee23d
+2023-04-03T20:49:08.841-05:00  INFO 1044 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2023-04-03T20:49:08.844-05:00  WARN 1044 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.0 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 5.7.0. Check the community dialects project for available legacy versions.
+2023-04-03T20:49:08.845-05:00  INFO 1044 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-04-03T20:49:08.930-05:00  INFO 1044 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-03T20:49:08.931-05:00  INFO 1044 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-03T20:49:09.115-05:00  WARN 1044 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-03T20:49:09.158-05:00  INFO 1044 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-04-03T20:49:09.247-05:00  INFO 1044 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-03T20:49:09.261-05:00  INFO 1044 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/cinestar'
+2023-04-03T20:49:09.274-05:00  INFO 1044 --- [restartedMain] c.w.cinestar.WebCineStarStsApplication   : Started WebCineStarStsApplication in 1.139 seconds (process running for 2965.919)
+2023-04-03T20:49:09.276-05:00  INFO 1044 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-04-03T20:59:57.442-05:00  INFO 1044 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-04-03T20:59:57.461-05:00  INFO 1044 --- [Thread-23] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-03T20:59:57.465-05:00  INFO 1044 --- [Thread-23] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-03T20:59:57.466-05:00  INFO 1044 --- [Thread-23] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2023-04-03T20:59:57.468-05:00  INFO 1044 --- [Thread-23] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
+2023-04-03T20:59:57.535-05:00  INFO 1044 --- [restartedMain] c.w.cinestar.WebCineStarStsApplication   : Starting WebCineStarStsApplication using Java 17.0.6 with PID 1044 (D:\Documentos\Spring Tools Suite\webCineStar_STS\target\classes started by Omar in D:\Documentos\Spring Tools Suite\webCineStar_STS)
+2023-04-03T20:59:57.535-05:00  INFO 1044 --- [restartedMain] c.w.cinestar.WebCineStarStsApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-04-03T20:59:57.697-05:00  INFO 1044 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-03T20:59:57.720-05:00  INFO 1044 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23 ms. Found 3 JPA repository interfaces.
+2023-04-03T20:59:57.817-05:00  INFO 1044 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-03T20:59:57.817-05:00  INFO 1044 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-03T20:59:57.817-05:00  INFO 1044 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-04-03T20:59:57.831-05:00  INFO 1044 --- [restartedMain] o.a.c.c.C.[.[localhost].[/cinestar]      : Initializing Spring embedded WebApplicationContext
+2023-04-03T20:59:57.831-05:00  INFO 1044 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 294 ms
+2023-04-03T20:59:57.877-05:00  INFO 1044 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-03T20:59:57.890-05:00  INFO 1044 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Starting...
+2023-04-03T20:59:57.895-05:00  INFO 1044 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-7 - Added connection com.mysql.cj.jdbc.ConnectionImpl@22bc7619
+2023-04-03T20:59:57.895-05:00  INFO 1044 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Start completed.
+2023-04-03T20:59:57.896-05:00  WARN 1044 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.0 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 5.7.0. Check the community dialects project for available legacy versions.
+2023-04-03T20:59:57.897-05:00  INFO 1044 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-04-03T20:59:57.971-05:00  INFO 1044 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-03T20:59:57.971-05:00  INFO 1044 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-03T20:59:58.089-05:00  WARN 1044 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-03T20:59:58.137-05:00  INFO 1044 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-04-03T20:59:58.219-05:00  INFO 1044 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-03T20:59:58.234-05:00  INFO 1044 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/cinestar'
+2023-04-03T20:59:58.238-05:00  INFO 1044 --- [restartedMain] c.w.cinestar.WebCineStarStsApplication   : Started WebCineStarStsApplication in 0.723 seconds (process running for 3614.883)
+2023-04-03T20:59:58.239-05:00  INFO 1044 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-04-03T21:44:21.683-05:00  INFO 1044 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[localhost].[/cinestar]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-03T21:44:21.683-05:00  INFO 1044 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-03T21:44:21.684-05:00  INFO 1044 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-04-03T21:44:21.710-05:00  WARN 1044 --- [http-nio-8080-exec-2] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-2][index] Deprecated unwrapped fragment expression "template :: head" found in template index, line 3, col 8. Please use the complete syntax of fragment expressions instead ("~{template :: head}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2023-04-03T21:44:21.714-05:00  WARN 1044 --- [http-nio-8080-exec-2] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-2][index] Deprecated unwrapped fragment expression "template :: header" found in template index, line 6, col 11. Please use the complete syntax of fragment expressions instead ("~{template :: header}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2023-04-03T21:44:21.729-05:00  WARN 1044 --- [http-nio-8080-exec-2] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-2][index] Deprecated unwrapped fragment expression "template :: footer" found in template index, line 19, col 11. Please use the complete syntax of fragment expressions instead ("~{template :: footer}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2023-04-03T21:44:34.999-05:00  WARN 1044 --- [http-nio-8080-exec-4] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-4][cines] Deprecated unwrapped fragment expression "template :: head" found in template cines, line 3, col 8. Please use the complete syntax of fragment expressions instead ("~{template :: head}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2023-04-03T21:44:35.002-05:00  WARN 1044 --- [http-nio-8080-exec-4] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-4][cines] Deprecated unwrapped fragment expression "template :: header" found in template cines, line 6, col 11. Please use the complete syntax of fragment expressions instead ("~{template :: header}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2023-04-03T21:44:35.014-05:00  WARN 1044 --- [http-nio-8080-exec-4] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-4][cines] Deprecated unwrapped fragment expression "template :: footer" found in template cines, line 33, col 11. Please use the complete syntax of fragment expressions instead ("~{template :: footer}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2023-04-03T21:44:42.537-05:00  WARN 1044 --- [http-nio-8080-exec-6] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-6][peliculas] Deprecated unwrapped fragment expression "template :: head" found in template peliculas, line 3, col 8. Please use the complete syntax of fragment expressions instead ("~{template :: head}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2023-04-03T21:44:42.540-05:00  WARN 1044 --- [http-nio-8080-exec-6] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-6][peliculas] Deprecated unwrapped fragment expression "template :: header" found in template peliculas, line 6, col 11. Please use the complete syntax of fragment expressions instead ("~{template :: header}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2023-04-03T21:44:42.556-05:00  WARN 1044 --- [http-nio-8080-exec-6] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-6][peliculas] Deprecated unwrapped fragment expression "template :: footer" found in template peliculas, line 39, col 11. Please use the complete syntax of fragment expressions instead ("~{template :: footer}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2023-04-03T21:44:45.548-05:00  WARN 1044 --- [http-nio-8080-exec-1] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-1][index] Deprecated unwrapped fragment expression "template :: head" found in template index, line 3, col 8. Please use the complete syntax of fragment expressions instead ("~{template :: head}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2023-04-03T21:44:45.549-05:00  WARN 1044 --- [http-nio-8080-exec-1] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-1][index] Deprecated unwrapped fragment expression "template :: header" found in template index, line 6, col 11. Please use the complete syntax of fragment expressions instead ("~{template :: header}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2023-04-03T21:44:45.551-05:00  WARN 1044 --- [http-nio-8080-exec-1] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-1][index] Deprecated unwrapped fragment expression "template :: footer" found in template index, line 19, col 11. Please use the complete syntax of fragment expressions instead ("~{template :: footer}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2023-04-03T21:49:16.165-05:00  WARN 1044 --- [http-nio-8080-exec-10] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-10][index] Deprecated unwrapped fragment expression "template :: head" found in template index, line 3, col 8. Please use the complete syntax of fragment expressions instead ("~{template :: head}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2023-04-03T21:49:16.166-05:00  WARN 1044 --- [http-nio-8080-exec-10] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-10][index] Deprecated unwrapped fragment expression "template :: header" found in template index, line 6, col 11. Please use the complete syntax of fragment expressions instead ("~{template :: header}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2023-04-03T21:49:16.172-05:00  WARN 1044 --- [http-nio-8080-exec-10] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-10][index] Deprecated unwrapped fragment expression "template :: footer" found in template index, line 19, col 11. Please use the complete syntax of fragment expressions instead ("~{template :: footer}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2023-04-03T21:49:19.126-05:00  WARN 1044 --- [http-nio-8080-exec-5] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-5][cines] Deprecated unwrapped fragment expression "template :: head" found in template cines, line 3, col 8. Please use the complete syntax of fragment expressions instead ("~{template :: head}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2023-04-03T21:49:19.130-05:00  WARN 1044 --- [http-nio-8080-exec-5] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-5][cines] Deprecated unwrapped fragment expression "template :: header" found in template cines, line 5, col 11. Please use the complete syntax of fragment expressions instead ("~{template :: header}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2023-04-03T21:49:19.139-05:00  WARN 1044 --- [http-nio-8080-exec-5] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-5][cines] Deprecated unwrapped fragment expression "template :: footer" found in template cines, line 32, col 11. Please use the complete syntax of fragment expressions instead ("~{template :: footer}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2023-04-03T21:49:48.043-05:00  WARN 1044 --- [http-nio-8080-exec-10] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-10][cines] Deprecated unwrapped fragment expression "template :: head" found in template cines, line 3, col 8. Please use the complete syntax of fragment expressions instead ("~{template :: head}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2023-04-03T21:49:48.045-05:00  WARN 1044 --- [http-nio-8080-exec-10] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-10][cines] Deprecated unwrapped fragment expression "template :: header" found in template cines, line 5, col 11. Please use the complete syntax of fragment expressions instead ("~{template :: header}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2023-04-03T21:49:48.059-05:00  WARN 1044 --- [http-nio-8080-exec-10] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-10][cines] Deprecated unwrapped fragment expression "template :: footer" found in template cines, line 32, col 11. Please use the complete syntax of fragment expressions instead ("~{template :: footer}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2023-04-03T21:49:53.060-05:00  WARN 1044 --- [http-nio-8080-exec-2] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-2][peliculas] Deprecated unwrapped fragment expression "template :: head" found in template peliculas, line 3, col 8. Please use the complete syntax of fragment expressions instead ("~{template :: head}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2023-04-03T21:49:53.063-05:00  WARN 1044 --- [http-nio-8080-exec-2] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-2][peliculas] Deprecated unwrapped fragment expression "template :: header" found in template peliculas, line 6, col 11. Please use the complete syntax of fragment expressions instead ("~{template :: header}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2023-04-03T21:49:53.082-05:00  WARN 1044 --- [http-nio-8080-exec-2] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-2][peliculas] Deprecated unwrapped fragment expression "template :: footer" found in template peliculas, line 39, col 11. Please use the complete syntax of fragment expressions instead ("~{template :: footer}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2023-04-03T21:49:57.440-05:00  WARN 1044 --- [http-nio-8080-exec-10] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-10][cines] Deprecated unwrapped fragment expression "template :: head" found in template cines, line 3, col 8. Please use the complete syntax of fragment expressions instead ("~{template :: head}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2023-04-03T21:49:57.444-05:00  WARN 1044 --- [http-nio-8080-exec-10] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-10][cines] Deprecated unwrapped fragment expression "template :: header" found in template cines, line 5, col 11. Please use the complete syntax of fragment expressions instead ("~{template :: header}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2023-04-03T21:49:57.449-05:00  WARN 1044 --- [http-nio-8080-exec-10] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-10][cines] Deprecated unwrapped fragment expression "template :: footer" found in template cines, line 32, col 11. Please use the complete syntax of fragment expressions instead ("~{template :: footer}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2023-04-03T21:51:58.045-05:00  WARN 1044 --- [http-nio-8080-exec-5] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-5][cines] Deprecated unwrapped fragment expression "template :: head" found in template cines, line 3, col 8. Please use the complete syntax of fragment expressions instead ("~{template :: head}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2023-04-03T21:51:58.046-05:00  WARN 1044 --- [http-nio-8080-exec-5] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-5][cines] Deprecated unwrapped fragment expression "template :: header" found in template cines, line 5, col 11. Please use the complete syntax of fragment expressions instead ("~{template :: header}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2023-04-03T21:51:58.051-05:00  WARN 1044 --- [http-nio-8080-exec-5] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-5][cines] Deprecated unwrapped fragment expression "template :: footer" found in template cines, line 32, col 11. Please use the complete syntax of fragment expressions instead ("~{template :: footer}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2023-04-03T21:52:07.728-05:00  WARN 1044 --- [http-nio-8080-exec-4] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-4][peliculas] Deprecated unwrapped fragment expression "template :: head" found in template peliculas, line 3, col 8. Please use the complete syntax of fragment expressions instead ("~{template :: head}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2023-04-03T21:52:07.729-05:00  WARN 1044 --- [http-nio-8080-exec-4] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-4][peliculas] Deprecated unwrapped fragment expression "template :: header" found in template peliculas, line 6, col 11. Please use the complete syntax of fragment expressions instead ("~{template :: header}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2023-04-03T21:52:07.744-05:00  WARN 1044 --- [http-nio-8080-exec-4] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-4][peliculas] Deprecated unwrapped fragment expression "template :: footer" found in template peliculas, line 39, col 11. Please use the complete syntax of fragment expressions instead ("~{template :: footer}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2023-04-03T21:52:09.716-05:00  WARN 1044 --- [http-nio-8080-exec-2] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-2][cines] Deprecated unwrapped fragment expression "template :: head" found in template cines, line 3, col 8. Please use the complete syntax of fragment expressions instead ("~{template :: head}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2023-04-03T21:52:09.720-05:00  WARN 1044 --- [http-nio-8080-exec-2] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-2][cines] Deprecated unwrapped fragment expression "template :: header" found in template cines, line 5, col 11. Please use the complete syntax of fragment expressions instead ("~{template :: header}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2023-04-03T21:52:09.724-05:00  WARN 1044 --- [http-nio-8080-exec-2] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-2][cines] Deprecated unwrapped fragment expression "template :: footer" found in template cines, line 32, col 11. Please use the complete syntax of fragment expressions instead ("~{template :: footer}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2023-04-03T21:53:55.692-05:00  WARN 1044 --- [http-nio-8080-exec-1] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-1][cines] Deprecated unwrapped fragment expression "template :: head" found in template cines, line 3, col 8. Please use the complete syntax of fragment expressions instead ("~{template :: head}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2023-04-03T21:53:55.695-05:00 ERROR 1044 --- [http-nio-8080-exec-1] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-8080-exec-1] Exception processing template "cines": An error happened during template parsing (template: "class path resource [templates/cines.html]")
 
 org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/cines.html]")
 	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:241) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
@@ -83,68 +302,131 @@ org.thymeleaf.exceptions.TemplateInputException: An error happened during templa
 	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
 	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
-Caused by: org.attoparser.ParseException: Could not parse as expression: "@{img/cine/${cine.id}.1.jpg" (template: "cines" - line 17, col 20)
+Caused by: org.attoparser.ParseException: An error happened during template parsing (template: "class path resource [templates/template.html]" - line 24, col 23)
 	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:393) ~[attoparser-2.0.6.RELEASE.jar:2.0.6.RELEASE]
 	at org.attoparser.MarkupParser.parse(MarkupParser.java:257) ~[attoparser-2.0.6.RELEASE.jar:2.0.6.RELEASE]
 	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
 	... 48 common frames omitted
-Caused by: org.thymeleaf.exceptions.TemplateProcessingException: Could not parse as expression: "@{img/cine/${cine.id}.1.jpg" (template: "cines" - line 17, col 20)
-	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:131) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:62) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:44) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.EngineEventUtils.parseAttributeExpression(EngineEventUtils.java:220) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.EngineEventUtils.computeAttributeExpression(EngineEventUtils.java:207) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:125) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
+Caused by: org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/template.html]" - line 24, col 23)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:239) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseStandalone(TemplateManager.java:302) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
+	at org.thymeleaf.standard.expression.FragmentExpression.resolveExecutedFragmentExpression(FragmentExpression.java:567) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
+	at org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor.computeFragment(AbstractStandardFragmentInsertionTagProcessor.java:399) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
+	at org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor.doProcess(AbstractStandardFragmentInsertionTagProcessor.java:115) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
 	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
 	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
 	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.ProcessorTemplateHandler.handleStandaloneElement(ProcessorTemplateHandler.java:918) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.StandaloneElementTag.beHandled(StandaloneElementTag.java:228) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.Model.process(Model.java:282) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.Model.process(Model.java:290) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.IteratedGatheringModelProcessable.processIterationModel(IteratedGatheringModelProcessable.java:368) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.IteratedGatheringModelProcessable.process(IteratedGatheringModelProcessable.java:222) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.ProcessorTemplateHandler.handleCloseElement(ProcessorTemplateHandler.java:1640) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleCloseElementEnd(TemplateHandlerAdapterMarkupHandler.java:388) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleCloseElementEnd(InlinedOutputExpressionMarkupHandler.java:322) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleCloseElementEnd(OutputExpressionInlinePreProcessorHandler.java:220) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleCloseElementEnd(InlinedOutputExpressionMarkupHandler.java:164) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.attoparser.HtmlElement.handleCloseElementEnd(HtmlElement.java:169) ~[attoparser-2.0.6.RELEASE.jar:2.0.6.RELEASE]
-	at org.attoparser.HtmlMarkupHandler.handleCloseElementEnd(HtmlMarkupHandler.java:412) ~[attoparser-2.0.6.RELEASE.jar:2.0.6.RELEASE]
-	at org.attoparser.MarkupEventProcessorHandler.handleCloseElementEnd(MarkupEventProcessorHandler.java:473) ~[attoparser-2.0.6.RELEASE.jar:2.0.6.RELEASE]
-	at org.attoparser.ParsingElementMarkupUtil.parseCloseElement(ParsingElementMarkupUtil.java:201) ~[attoparser-2.0.6.RELEASE.jar:2.0.6.RELEASE]
-	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:725) ~[attoparser-2.0.6.RELEASE.jar:2.0.6.RELEASE]
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleOpenElementEnd(OutputExpressionInlinePreProcessorHandler.java:186) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:124) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
+	at org.attoparser.HtmlElement.handleOpenElementEnd(HtmlElement.java:109) ~[attoparser-2.0.6.RELEASE.jar:2.0.6.RELEASE]
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297) ~[attoparser-2.0.6.RELEASE.jar:2.0.6.RELEASE]
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402) ~[attoparser-2.0.6.RELEASE.jar:2.0.6.RELEASE]
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159) ~[attoparser-2.0.6.RELEASE.jar:2.0.6.RELEASE]
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710) ~[attoparser-2.0.6.RELEASE.jar:2.0.6.RELEASE]
 	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301) ~[attoparser-2.0.6.RELEASE.jar:2.0.6.RELEASE]
 	... 50 common frames omitted
+Caused by: org.attoparser.ParseException: (Line = 24, Column = 23) Incomplete structure: "<img src=img/varios/logo-cinestar.png"/></a>
+			</div>
+			<nav class="menu">
+				<span class="img-social">
+					<a href="http://www.facebook.com/multicinestar" target="_blank"><img th:src="@{/img/varios/ico-face.png}"/></a>
+					<a href="http://www.twitter.com/multicinestar" target="_blank"><img th:src="@{/img/varios/ico-twitter.png}"/></a>
+				</span>
+				<span class="social">Síguenos en: </span>
+				<ul class="menu-principal">
+		    		<li class="menu-item"><a th:href="@{/peliculas/cartelera}">Cartelera</a></li>
+		       		<li class="menu-item"><a th:href="@{/peliculas/estrenos}">Próximos estrenos</a></li>
+		       		<li class="menu-item"><a href="http://www.cinestar.com.pe/starcard">Star Card</a></li>
+		        	<li class="menu-item"><a th:href="@{/cines}">Nuestros Cines</a></li>
+		        	<li class="menu-item"><a href="http://www.cinestar.com.pe/ventas_corporativas">Ventas Corporativas</a></li>
+		        	<li class="menu-item"><a href="http://www.cinestar.com.pe/promociones">Promociones</a></li>
+		        	<li class="menu-item"><a href="http://www.cinestar.com.pe/cinefilo_star">Blog</a></li>
+		    	</ul>
+			</nav>
+			<div class="slider">
+		
+			</div>
+			<div class="papaya">
+				<a href="http://www.cinepapaya.com/pe/cinestar" target="_blank"><img th:src="@{/img/varios/bg-papaya.jpg}"/></a>
+			</div>
+		</header>
+	
 
-2023-03-31T10:13:51.909-05:00 ERROR 13928 --- [http-nio-8080-exec-3] o.a.c.c.C.[.[.[.[dispatcherServlet]      : Servlet.service() for servlet [dispatcherServlet] in context with path [/cinestar] threw exception [Request processing failed: org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/cines.html]")] with root cause
+		<footer th:fragment="footer">
+			<div class="contenido-footer">
+				<p>Copyright © 2016 ® Multicines CINESTAR - Todos los Derechos Reservados</p>
+			</div>
+		</footer>
 
-org.thymeleaf.exceptions.TemplateProcessingException: Could not parse as expression: "@{img/cine/${cine.id}.1.jpg" (template: "cines" - line 17, col 20)
-	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:131) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:62) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:44) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.EngineEventUtils.parseAttributeExpression(EngineEventUtils.java:220) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.EngineEventUtils.computeAttributeExpression(EngineEventUtils.java:207) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:125) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
+	</body>
+</html>"
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:366) ~[attoparser-2.0.6.RELEASE.jar:2.0.6.RELEASE]
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257) ~[attoparser-2.0.6.RELEASE.jar:2.0.6.RELEASE]
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
+	... 69 common frames omitted
+
+2023-04-03T21:53:55.730-05:00 ERROR 1044 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[.[dispatcherServlet]      : Servlet.service() for servlet [dispatcherServlet] in context with path [/cinestar] threw exception [Request processing failed: org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/cines.html]")] with root cause
+
+org.attoparser.ParseException: (Line = 24, Column = 23) Incomplete structure: "<img src=img/varios/logo-cinestar.png"/></a>
+			</div>
+			<nav class="menu">
+				<span class="img-social">
+					<a href="http://www.facebook.com/multicinestar" target="_blank"><img th:src="@{/img/varios/ico-face.png}"/></a>
+					<a href="http://www.twitter.com/multicinestar" target="_blank"><img th:src="@{/img/varios/ico-twitter.png}"/></a>
+				</span>
+				<span class="social">Síguenos en: </span>
+				<ul class="menu-principal">
+		    		<li class="menu-item"><a th:href="@{/peliculas/cartelera}">Cartelera</a></li>
+		       		<li class="menu-item"><a th:href="@{/peliculas/estrenos}">Próximos estrenos</a></li>
+		       		<li class="menu-item"><a href="http://www.cinestar.com.pe/starcard">Star Card</a></li>
+		        	<li class="menu-item"><a th:href="@{/cines}">Nuestros Cines</a></li>
+		        	<li class="menu-item"><a href="http://www.cinestar.com.pe/ventas_corporativas">Ventas Corporativas</a></li>
+		        	<li class="menu-item"><a href="http://www.cinestar.com.pe/promociones">Promociones</a></li>
+		        	<li class="menu-item"><a href="http://www.cinestar.com.pe/cinefilo_star">Blog</a></li>
+		    	</ul>
+			</nav>
+			<div class="slider">
+		
+			</div>
+			<div class="papaya">
+				<a href="http://www.cinepapaya.com/pe/cinestar" target="_blank"><img th:src="@{/img/varios/bg-papaya.jpg}"/></a>
+			</div>
+		</header>
+	
+
+		<footer th:fragment="footer">
+			<div class="contenido-footer">
+				<p>Copyright © 2016 ® Multicines CINESTAR - Todos los Derechos Reservados</p>
+			</div>
+		</footer>
+
+	</body>
+</html>"
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:366) ~[attoparser-2.0.6.RELEASE.jar:2.0.6.RELEASE]
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257) ~[attoparser-2.0.6.RELEASE.jar:2.0.6.RELEASE]
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseStandalone(TemplateManager.java:302) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
+	at org.thymeleaf.standard.expression.FragmentExpression.resolveExecutedFragmentExpression(FragmentExpression.java:567) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
+	at org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor.computeFragment(AbstractStandardFragmentInsertionTagProcessor.java:399) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
+	at org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor.doProcess(AbstractStandardFragmentInsertionTagProcessor.java:115) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
 	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
 	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
 	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.ProcessorTemplateHandler.handleStandaloneElement(ProcessorTemplateHandler.java:918) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.StandaloneElementTag.beHandled(StandaloneElementTag.java:228) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.Model.process(Model.java:282) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.Model.process(Model.java:290) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.IteratedGatheringModelProcessable.processIterationModel(IteratedGatheringModelProcessable.java:368) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.IteratedGatheringModelProcessable.process(IteratedGatheringModelProcessable.java:222) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.ProcessorTemplateHandler.handleCloseElement(ProcessorTemplateHandler.java:1640) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleCloseElementEnd(TemplateHandlerAdapterMarkupHandler.java:388) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleCloseElementEnd(InlinedOutputExpressionMarkupHandler.java:322) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleCloseElementEnd(OutputExpressionInlinePreProcessorHandler.java:220) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleCloseElementEnd(InlinedOutputExpressionMarkupHandler.java:164) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.attoparser.HtmlElement.handleCloseElementEnd(HtmlElement.java:169) ~[attoparser-2.0.6.RELEASE.jar:2.0.6.RELEASE]
-	at org.attoparser.HtmlMarkupHandler.handleCloseElementEnd(HtmlMarkupHandler.java:412) ~[attoparser-2.0.6.RELEASE.jar:2.0.6.RELEASE]
-	at org.attoparser.MarkupEventProcessorHandler.handleCloseElementEnd(MarkupEventProcessorHandler.java:473) ~[attoparser-2.0.6.RELEASE.jar:2.0.6.RELEASE]
-	at org.attoparser.ParsingElementMarkupUtil.parseCloseElement(ParsingElementMarkupUtil.java:201) ~[attoparser-2.0.6.RELEASE.jar:2.0.6.RELEASE]
-	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:725) ~[attoparser-2.0.6.RELEASE.jar:2.0.6.RELEASE]
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleOpenElementEnd(OutputExpressionInlinePreProcessorHandler.java:186) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:124) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
+	at org.attoparser.HtmlElement.handleOpenElementEnd(HtmlElement.java:109) ~[attoparser-2.0.6.RELEASE.jar:2.0.6.RELEASE]
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297) ~[attoparser-2.0.6.RELEASE.jar:2.0.6.RELEASE]
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402) ~[attoparser-2.0.6.RELEASE.jar:2.0.6.RELEASE]
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159) ~[attoparser-2.0.6.RELEASE.jar:2.0.6.RELEASE]
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710) ~[attoparser-2.0.6.RELEASE.jar:2.0.6.RELEASE]
 	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301) ~[attoparser-2.0.6.RELEASE.jar:2.0.6.RELEASE]
 	at org.attoparser.MarkupParser.parse(MarkupParser.java:257) ~[attoparser-2.0.6.RELEASE.jar:2.0.6.RELEASE]
 	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
@@ -197,189 +479,39 @@ org.thymeleaf.exceptions.TemplateProcessingException: Could not parse as express
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
 	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
 
-2023-03-31T10:14:13.929-05:00  WARN 13928 --- [http-nio-8080-exec-6] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-6][peliculas] Deprecated unwrapped fragment expression "template :: head" found in template peliculas, line 3, col 8. Please use the complete syntax of fragment expressions instead ("~{template :: head}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
-2023-03-31T10:14:13.935-05:00  WARN 13928 --- [http-nio-8080-exec-6] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-6][peliculas] Deprecated unwrapped fragment expression "template :: header" found in template peliculas, line 6, col 11. Please use the complete syntax of fragment expressions instead ("~{template :: header}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
-2023-03-31T10:14:14.014-05:00  WARN 13928 --- [http-nio-8080-exec-6] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-6][peliculas] Deprecated unwrapped fragment expression "template :: footer" found in template peliculas, line 39, col 11. Please use the complete syntax of fragment expressions instead ("~{template :: footer}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
-2023-03-31T10:14:37.444-05:00  WARN 13928 --- [http-nio-8080-exec-2] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-2][cines] Deprecated unwrapped fragment expression "template :: head" found in template cines, line 3, col 8. Please use the complete syntax of fragment expressions instead ("~{template :: head}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
-2023-03-31T10:14:37.449-05:00  WARN 13928 --- [http-nio-8080-exec-2] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-2][cines] Deprecated unwrapped fragment expression "template :: header" found in template cines, line 6, col 11. Please use the complete syntax of fragment expressions instead ("~{template :: header}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
-2023-03-31T10:14:37.460-05:00 ERROR 13928 --- [http-nio-8080-exec-2] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-8080-exec-2] Exception processing template "cines": An error happened during template parsing (template: "class path resource [templates/cines.html]")
-
-org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/cines.html]")
-	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:241) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372) ~[thymeleaf-spring6-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192) ~[thymeleaf-spring6-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1415) ~[spring-webmvc-6.0.7.jar:6.0.7]
-	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1159) ~[spring-webmvc-6.0.7.jar:6.0.7]
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1098) ~[spring-webmvc-6.0.7.jar:6.0.7]
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974) ~[spring-webmvc-6.0.7.jar:6.0.7]
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011) ~[spring-webmvc-6.0.7.jar:6.0.7]
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.0.7.jar:6.0.7]
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:537) ~[tomcat-embed-core-10.1.7.jar:6.0]
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.0.7.jar:6.0.7]
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:631) ~[tomcat-embed-core-10.1.7.jar:6.0]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-10.1.7.jar:10.1.7]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.0.7.jar:6.0.7]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.7.jar:6.0.7]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.0.7.jar:6.0.7]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.7.jar:6.0.7]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.0.7.jar:6.0.7]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.7.jar:6.0.7]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
-	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
-Caused by: org.attoparser.ParseException: Could not parse as expression: "@{img/cine/${cine.id}.1.jpg" (template: "cines" - line 17, col 20)
-	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:393) ~[attoparser-2.0.6.RELEASE.jar:2.0.6.RELEASE]
-	at org.attoparser.MarkupParser.parse(MarkupParser.java:257) ~[attoparser-2.0.6.RELEASE.jar:2.0.6.RELEASE]
-	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	... 48 common frames omitted
-Caused by: org.thymeleaf.exceptions.TemplateProcessingException: Could not parse as expression: "@{img/cine/${cine.id}.1.jpg" (template: "cines" - line 17, col 20)
-	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:131) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:62) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:44) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.EngineEventUtils.parseAttributeExpression(EngineEventUtils.java:220) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.EngineEventUtils.computeAttributeExpression(EngineEventUtils.java:207) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:125) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.ProcessorTemplateHandler.handleStandaloneElement(ProcessorTemplateHandler.java:918) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.StandaloneElementTag.beHandled(StandaloneElementTag.java:228) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.Model.process(Model.java:282) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.Model.process(Model.java:290) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.IteratedGatheringModelProcessable.processIterationModel(IteratedGatheringModelProcessable.java:368) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.IteratedGatheringModelProcessable.process(IteratedGatheringModelProcessable.java:222) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.ProcessorTemplateHandler.handleCloseElement(ProcessorTemplateHandler.java:1640) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleCloseElementEnd(TemplateHandlerAdapterMarkupHandler.java:388) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleCloseElementEnd(InlinedOutputExpressionMarkupHandler.java:322) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleCloseElementEnd(OutputExpressionInlinePreProcessorHandler.java:220) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleCloseElementEnd(InlinedOutputExpressionMarkupHandler.java:164) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.attoparser.HtmlElement.handleCloseElementEnd(HtmlElement.java:169) ~[attoparser-2.0.6.RELEASE.jar:2.0.6.RELEASE]
-	at org.attoparser.HtmlMarkupHandler.handleCloseElementEnd(HtmlMarkupHandler.java:412) ~[attoparser-2.0.6.RELEASE.jar:2.0.6.RELEASE]
-	at org.attoparser.MarkupEventProcessorHandler.handleCloseElementEnd(MarkupEventProcessorHandler.java:473) ~[attoparser-2.0.6.RELEASE.jar:2.0.6.RELEASE]
-	at org.attoparser.ParsingElementMarkupUtil.parseCloseElement(ParsingElementMarkupUtil.java:201) ~[attoparser-2.0.6.RELEASE.jar:2.0.6.RELEASE]
-	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:725) ~[attoparser-2.0.6.RELEASE.jar:2.0.6.RELEASE]
-	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301) ~[attoparser-2.0.6.RELEASE.jar:2.0.6.RELEASE]
-	... 50 common frames omitted
-
-2023-03-31T10:14:37.464-05:00 ERROR 13928 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[.[.[dispatcherServlet]      : Servlet.service() for servlet [dispatcherServlet] in context with path [/cinestar] threw exception [Request processing failed: org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/cines.html]")] with root cause
-
-org.thymeleaf.exceptions.TemplateProcessingException: Could not parse as expression: "@{img/cine/${cine.id}.1.jpg" (template: "cines" - line 17, col 20)
-	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:131) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:62) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:44) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.EngineEventUtils.parseAttributeExpression(EngineEventUtils.java:220) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.EngineEventUtils.computeAttributeExpression(EngineEventUtils.java:207) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:125) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.ProcessorTemplateHandler.handleStandaloneElement(ProcessorTemplateHandler.java:918) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.StandaloneElementTag.beHandled(StandaloneElementTag.java:228) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.Model.process(Model.java:282) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.Model.process(Model.java:290) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.IteratedGatheringModelProcessable.processIterationModel(IteratedGatheringModelProcessable.java:368) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.IteratedGatheringModelProcessable.process(IteratedGatheringModelProcessable.java:222) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.ProcessorTemplateHandler.handleCloseElement(ProcessorTemplateHandler.java:1640) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleCloseElementEnd(TemplateHandlerAdapterMarkupHandler.java:388) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleCloseElementEnd(InlinedOutputExpressionMarkupHandler.java:322) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleCloseElementEnd(OutputExpressionInlinePreProcessorHandler.java:220) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleCloseElementEnd(InlinedOutputExpressionMarkupHandler.java:164) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.attoparser.HtmlElement.handleCloseElementEnd(HtmlElement.java:169) ~[attoparser-2.0.6.RELEASE.jar:2.0.6.RELEASE]
-	at org.attoparser.HtmlMarkupHandler.handleCloseElementEnd(HtmlMarkupHandler.java:412) ~[attoparser-2.0.6.RELEASE.jar:2.0.6.RELEASE]
-	at org.attoparser.MarkupEventProcessorHandler.handleCloseElementEnd(MarkupEventProcessorHandler.java:473) ~[attoparser-2.0.6.RELEASE.jar:2.0.6.RELEASE]
-	at org.attoparser.ParsingElementMarkupUtil.parseCloseElement(ParsingElementMarkupUtil.java:201) ~[attoparser-2.0.6.RELEASE.jar:2.0.6.RELEASE]
-	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:725) ~[attoparser-2.0.6.RELEASE.jar:2.0.6.RELEASE]
-	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301) ~[attoparser-2.0.6.RELEASE.jar:2.0.6.RELEASE]
-	at org.attoparser.MarkupParser.parse(MarkupParser.java:257) ~[attoparser-2.0.6.RELEASE.jar:2.0.6.RELEASE]
-	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372) ~[thymeleaf-spring6-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192) ~[thymeleaf-spring6-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1415) ~[spring-webmvc-6.0.7.jar:6.0.7]
-	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1159) ~[spring-webmvc-6.0.7.jar:6.0.7]
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1098) ~[spring-webmvc-6.0.7.jar:6.0.7]
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974) ~[spring-webmvc-6.0.7.jar:6.0.7]
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011) ~[spring-webmvc-6.0.7.jar:6.0.7]
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.0.7.jar:6.0.7]
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:537) ~[tomcat-embed-core-10.1.7.jar:6.0]
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.0.7.jar:6.0.7]
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:631) ~[tomcat-embed-core-10.1.7.jar:6.0]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-10.1.7.jar:10.1.7]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.0.7.jar:6.0.7]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.7.jar:6.0.7]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.0.7.jar:6.0.7]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.7.jar:6.0.7]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.0.7.jar:6.0.7]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.7.jar:6.0.7]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
-	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
-
-2023-03-31T10:14:50.756-05:00  WARN 13928 --- [http-nio-8080-exec-1] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-1][index] Deprecated unwrapped fragment expression "template :: head" found in template index, line 3, col 8. Please use the complete syntax of fragment expressions instead ("~{template :: head}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
-2023-03-31T10:14:50.760-05:00  WARN 13928 --- [http-nio-8080-exec-1] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-1][index] Deprecated unwrapped fragment expression "template :: header" found in template index, line 6, col 11. Please use the complete syntax of fragment expressions instead ("~{template :: header}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
-2023-03-31T10:14:50.766-05:00  WARN 13928 --- [http-nio-8080-exec-1] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-1][index] Deprecated unwrapped fragment expression "template :: footer" found in template index, line 19, col 11. Please use the complete syntax of fragment expressions instead ("~{template :: footer}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
-2023-03-31T10:17:04.808-05:00  WARN 13928 --- [http-nio-8080-exec-3] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-3][cines] Deprecated unwrapped fragment expression "template :: head" found in template cines, line 3, col 8. Please use the complete syntax of fragment expressions instead ("~{template :: head}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
-2023-03-31T10:17:04.810-05:00  WARN 13928 --- [http-nio-8080-exec-3] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-3][cines] Deprecated unwrapped fragment expression "template :: header" found in template cines, line 6, col 11. Please use the complete syntax of fragment expressions instead ("~{template :: header}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
-2023-03-31T10:17:04.825-05:00  WARN 13928 --- [http-nio-8080-exec-3] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-3][cines] Deprecated unwrapped fragment expression "template :: footer" found in template cines, line 33, col 11. Please use the complete syntax of fragment expressions instead ("~{template :: footer}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
-2023-03-31T10:17:26.860-05:00  WARN 13928 --- [http-nio-8080-exec-8] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-8][peliculas] Deprecated unwrapped fragment expression "template :: head" found in template peliculas, line 3, col 8. Please use the complete syntax of fragment expressions instead ("~{template :: head}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
-2023-03-31T10:17:26.864-05:00  WARN 13928 --- [http-nio-8080-exec-8] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-8][peliculas] Deprecated unwrapped fragment expression "template :: header" found in template peliculas, line 6, col 11. Please use the complete syntax of fragment expressions instead ("~{template :: header}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
-2023-03-31T10:17:26.873-05:00  WARN 13928 --- [http-nio-8080-exec-8] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-8][peliculas] Deprecated unwrapped fragment expression "template :: footer" found in template peliculas, line 39, col 11. Please use the complete syntax of fragment expressions instead ("~{template :: footer}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
-2023-03-31T14:50:47.914-05:00  INFO 13928 --- [RMI TCP Connection(281)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2023-03-31T14:50:47.930-05:00  INFO 13928 --- [RMI TCP Connection(281)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2023-03-31T14:50:47.933-05:00  INFO 13928 --- [RMI TCP Connection(281)-127.0.0.1] o.a.c.c.C.[.[localhost].[/cinestar]      : Destroying Spring FrameworkServlet 'dispatcherServlet'
-2023-03-31T14:50:47.948-05:00  INFO 13928 --- [RMI TCP Connection(281)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2023-03-31T14:50:47.957-05:00  INFO 13928 --- [RMI TCP Connection(281)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2023-03-31T14:50:47.960-05:00  INFO 13928 --- [RMI TCP Connection(281)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-04-03T21:54:47.729-05:00  WARN 1044 --- [http-nio-8080-exec-6] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-6][cines] Deprecated unwrapped fragment expression "template :: head" found in template cines, line 3, col 8. Please use the complete syntax of fragment expressions instead ("~{template :: head}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2023-04-03T21:54:47.732-05:00  WARN 1044 --- [http-nio-8080-exec-6] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-6][cines] Deprecated unwrapped fragment expression "template :: header" found in template cines, line 5, col 11. Please use the complete syntax of fragment expressions instead ("~{template :: header}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2023-04-03T21:54:47.735-05:00  WARN 1044 --- [http-nio-8080-exec-6] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-6][cines] Deprecated unwrapped fragment expression "template :: footer" found in template cines, line 32, col 11. Please use the complete syntax of fragment expressions instead ("~{template :: footer}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2023-04-03T21:55:20.349-05:00  WARN 1044 --- [http-nio-8080-exec-4] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-4][cines] Deprecated unwrapped fragment expression "template :: head" found in template cines, line 3, col 8. Please use the complete syntax of fragment expressions instead ("~{template :: head}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2023-04-03T21:55:20.356-05:00  WARN 1044 --- [http-nio-8080-exec-4] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-4][cines] Deprecated unwrapped fragment expression "template :: header" found in template cines, line 5, col 11. Please use the complete syntax of fragment expressions instead ("~{template :: header}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2023-04-03T21:55:20.367-05:00  WARN 1044 --- [http-nio-8080-exec-4] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-4][cines] Deprecated unwrapped fragment expression "template :: footer" found in template cines, line 32, col 11. Please use the complete syntax of fragment expressions instead ("~{template :: footer}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2023-04-03T21:55:33.626-05:00  WARN 1044 --- [http-nio-8080-exec-5] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-5][peliculas] Deprecated unwrapped fragment expression "template :: head" found in template peliculas, line 3, col 8. Please use the complete syntax of fragment expressions instead ("~{template :: head}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2023-04-03T21:55:33.629-05:00  WARN 1044 --- [http-nio-8080-exec-5] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-5][peliculas] Deprecated unwrapped fragment expression "template :: header" found in template peliculas, line 6, col 11. Please use the complete syntax of fragment expressions instead ("~{template :: header}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2023-04-03T21:55:33.633-05:00  WARN 1044 --- [http-nio-8080-exec-5] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-5][peliculas] Deprecated unwrapped fragment expression "template :: footer" found in template peliculas, line 39, col 11. Please use the complete syntax of fragment expressions instead ("~{template :: footer}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2023-04-03T22:03:40.585-05:00  WARN 1044 --- [http-nio-8080-exec-4] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-4][cines] Deprecated unwrapped fragment expression "template :: head" found in template cines, line 3, col 8. Please use the complete syntax of fragment expressions instead ("~{template :: head}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2023-04-03T22:03:40.586-05:00  WARN 1044 --- [http-nio-8080-exec-4] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-4][cines] Deprecated unwrapped fragment expression "template :: header" found in template cines, line 5, col 11. Please use the complete syntax of fragment expressions instead ("~{template :: header}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2023-04-03T22:03:40.589-05:00  WARN 1044 --- [http-nio-8080-exec-4] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-4][cines] Deprecated unwrapped fragment expression "template :: footer" found in template cines, line 33, col 11. Please use the complete syntax of fragment expressions instead ("~{template :: footer}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2023-04-03T22:06:31.360-05:00  WARN 1044 --- [http-nio-8080-exec-1] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-1][cines] Deprecated unwrapped fragment expression "template :: head" found in template cines, line 3, col 8. Please use the complete syntax of fragment expressions instead ("~{template :: head}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2023-04-03T22:06:31.361-05:00  WARN 1044 --- [http-nio-8080-exec-1] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-1][cines] Deprecated unwrapped fragment expression "template :: header" found in template cines, line 5, col 11. Please use the complete syntax of fragment expressions instead ("~{template :: header}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2023-04-03T22:06:31.365-05:00  WARN 1044 --- [http-nio-8080-exec-1] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-1][cines] Deprecated unwrapped fragment expression "template :: footer" found in template cines, line 33, col 11. Please use the complete syntax of fragment expressions instead ("~{template :: footer}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2023-04-03T22:09:24.850-05:00  WARN 1044 --- [http-nio-8080-exec-7] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-7][peliculas] Deprecated unwrapped fragment expression "template :: head" found in template peliculas, line 3, col 8. Please use the complete syntax of fragment expressions instead ("~{template :: head}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2023-04-03T22:09:24.853-05:00  WARN 1044 --- [http-nio-8080-exec-7] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-7][peliculas] Deprecated unwrapped fragment expression "template :: header" found in template peliculas, line 5, col 11. Please use the complete syntax of fragment expressions instead ("~{template :: header}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2023-04-03T22:09:24.863-05:00  WARN 1044 --- [http-nio-8080-exec-7] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-7][peliculas] Deprecated unwrapped fragment expression "template :: footer" found in template peliculas, line 38, col 11. Please use the complete syntax of fragment expressions instead ("~{template :: footer}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2023-04-03T22:10:35.680-05:00  WARN 1044 --- [http-nio-8080-exec-3] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-3][peliculas] Deprecated unwrapped fragment expression "template :: head" found in template peliculas, line 3, col 8. Please use the complete syntax of fragment expressions instead ("~{template :: head}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2023-04-03T22:10:35.681-05:00  WARN 1044 --- [http-nio-8080-exec-3] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-3][peliculas] Deprecated unwrapped fragment expression "template :: header" found in template peliculas, line 5, col 11. Please use the complete syntax of fragment expressions instead ("~{template :: header}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2023-04-03T22:10:35.686-05:00  WARN 1044 --- [http-nio-8080-exec-3] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-3][peliculas] Deprecated unwrapped fragment expression "template :: footer" found in template peliculas, line 38, col 11. Please use the complete syntax of fragment expressions instead ("~{template :: footer}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2023-04-03T22:10:36.693-05:00  WARN 1044 --- [http-nio-8080-exec-4] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-4][peliculas] Deprecated unwrapped fragment expression "template :: head" found in template peliculas, line 3, col 8. Please use the complete syntax of fragment expressions instead ("~{template :: head}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2023-04-03T22:10:36.695-05:00  WARN 1044 --- [http-nio-8080-exec-4] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-4][peliculas] Deprecated unwrapped fragment expression "template :: header" found in template peliculas, line 5, col 11. Please use the complete syntax of fragment expressions instead ("~{template :: header}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2023-04-03T22:10:36.702-05:00  WARN 1044 --- [http-nio-8080-exec-4] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-4][peliculas] Deprecated unwrapped fragment expression "template :: footer" found in template peliculas, line 38, col 11. Please use the complete syntax of fragment expressions instead ("~{template :: footer}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2023-04-03T22:10:59.193-05:00  WARN 1044 --- [http-nio-8080-exec-6] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-6][peliculas] Deprecated unwrapped fragment expression "template :: head" found in template peliculas, line 3, col 8. Please use the complete syntax of fragment expressions instead ("~{template :: head}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2023-04-03T22:10:59.194-05:00  WARN 1044 --- [http-nio-8080-exec-6] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-6][peliculas] Deprecated unwrapped fragment expression "template :: header" found in template peliculas, line 5, col 11. Please use the complete syntax of fragment expressions instead ("~{template :: header}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2023-04-03T22:10:59.202-05:00  WARN 1044 --- [http-nio-8080-exec-6] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-6][peliculas] Deprecated unwrapped fragment expression "template :: footer" found in template peliculas, line 38, col 11. Please use the complete syntax of fragment expressions instead ("~{template :: footer}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2023-04-03T22:14:14.897-05:00  WARN 1044 --- [http-nio-8080-exec-4] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-4][peliculas] Deprecated unwrapped fragment expression "template :: head" found in template peliculas, line 3, col 8. Please use the complete syntax of fragment expressions instead ("~{template :: head}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2023-04-03T22:14:14.898-05:00  WARN 1044 --- [http-nio-8080-exec-4] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-4][peliculas] Deprecated unwrapped fragment expression "template :: header" found in template peliculas, line 5, col 11. Please use the complete syntax of fragment expressions instead ("~{template :: header}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2023-04-03T22:14:14.911-05:00  WARN 1044 --- [http-nio-8080-exec-4] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-4][peliculas] Deprecated unwrapped fragment expression "template :: footer" found in template peliculas, line 39, col 11. Please use the complete syntax of fragment expressions instead ("~{template :: footer}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2023-04-03T22:28:15.740-05:00  INFO 1044 --- [RMI TCP Connection(153)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-04-03T22:28:15.748-05:00  INFO 1044 --- [RMI TCP Connection(153)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-03T22:28:15.749-05:00  INFO 1044 --- [RMI TCP Connection(153)-127.0.0.1] o.a.c.c.C.[.[localhost].[/cinestar]      : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-04-03T22:28:15.752-05:00  INFO 1044 --- [RMI TCP Connection(153)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-03T22:28:15.753-05:00  INFO 1044 --- [RMI TCP Connection(153)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown initiated...
+2023-04-03T22:28:15.754-05:00  INFO 1044 --- [RMI TCP Connection(153)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown completed.

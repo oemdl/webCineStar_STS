@@ -2,13 +2,12 @@
 <html xmls:th="http://www.thymeleaf.org">
 	<head th:replace="template :: head"></head>
 	<body>
-
 		<header th:replace="template :: header"></header>
 	
 		<div class="contenido">
 			<div class="publicidad">
-				<a href="http://www.cinestar.com.pe/starcard/"><img th:src="@{img/varios/starcard.jpg}"/></a>
-				<a href="http://www.cinestar.com.pe/cinefilo_star/"><img th:src="@{img/varios/cinefilo-star.jpg}"/></a>
+				<a href="http://www.cinestar.com.pe/starcard/"><img th:src="@{/img/varios/starcard.jpg}"/></a>
+				<a href="http://www.cinestar.com.pe/cinefilo_star/"><img th:src="@{/img/varios/cinefilo-star.jpg}"/></a>
 			</div>
 			<div class="contenido-interno" id="contenido-interno">
 
@@ -17,12 +16,13 @@
 	        	    <img th:src="@{${'/img/cine/' + cine.id + '.1.jpg'}}" width="227" height="170"/>
             	   	<div class="datos-cine">
        				   	<h4 th:text="${cine.RazonSocial}"></h4><br/>
-                		<span th:text="${cine.Direccion} + ' - ' + ${cine.Detalle}"></span><br/><br/>Teléfono: 
+                		<span th:text="${cine.Direccion} + ' - ' + ${cine.Detalle}"></span>
+                		<br/><br/>Teléfono: 
                 		<span th:text="${cine.Telefonos}"></span>
                 	</div>
                 	<br/>
-                	<a th:href="@{/cine/{id}(id=${cine.id})}" >
-                		<img th:src="@{img/varios/ico-info2.png}" width="150" height="40"/>
+                	<a th:href="@{${'/cine/' + cine.id}}" >
+                		<img src="img/varios/ico-info2.png" width="150" height="40"/>
                 	</a>
 				</div>
 

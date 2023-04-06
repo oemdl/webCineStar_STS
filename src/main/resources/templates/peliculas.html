@@ -2,7 +2,6 @@
 <html xmls:th="http://www.thymeleaf.org">
 	<head th:replace="template :: head"></head>
 	<body>
-
 		<header th:replace="template :: header"></header>
 	
 		<div class="contenido">
@@ -19,7 +18,8 @@
 						<p th:text="${pelicula.Sinopsis}" ></p>
 						<br/>
                        	<div class="boton-pelicula"> 
-                       		<a th:href="@{/pelicula/{id}(id=${pelicula.id})}" >
+                       		<!--<a th:href="@{/pelicula/{id}(id=${pelicula.id})}" > -->
+                       		<a th:href="@{${'/pelicula/' + pelicula.id}}">
                        			<img th:src="@{/img/varios/btn-mas-info.jpg}" width="120" height="30" alt="Ver info"/>
                        		</a>
                			</div>
@@ -37,6 +37,5 @@
 		<div class="clearbox"><br></div>
 
 		<footer th:replace="template :: footer"></footer>
-
 	</body>
 </html>

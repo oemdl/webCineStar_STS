@@ -17,7 +17,6 @@ public class CineService implements ICineService{
 	@Autowired
 	private ICine iCine;
 
-		
 	@Override
 	public Cine getCine(int id) {
 		return iCine.getCine(id);
